@@ -14,8 +14,8 @@ from openpyxl import Workbook
 import json
 import urllib
 
-gmaps = googlemaps.Client(key = "AIzaSyBmD6rn7-aEdXjD0JW8vYJJiRYEn0taQn0")
-GOOGLE_API_KEY = 'AIzaSyBmD6rn7-aEdXjD0JW8vYJJiRYEn0taQn0'
+gmaps = googlemaps.Client(key = "您自己的")
+GOOGLE_API_KEY = '您自己的'
 
 station = ["南港展覽館站", "南港軟體園區站", "東湖站", "葫洲站", "大湖公園站", "內湖站", "文德站", "港墘站",
  "西湖站", "劍南路", "大直站", "松山機場站", "中山國中站", "南京復興站", "忠孝復興站", "大安站", "科技大樓站", "六張犁站",
