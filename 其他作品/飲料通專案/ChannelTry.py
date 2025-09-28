@@ -9,8 +9,8 @@ import random
 
 app = Flask(__name__)
 
-line_bot_api = LineBotApi('fxP76FN1ngpTlzEsbDQjAl+TbmtTKMwamySyV8Esz/hgivTzflPouA9wN6Dn0NdkMUiJJWtYHQmJ+3ahCbFuAT3N2BtO4VExSfvvAx2fEJvKuV25b6QCLIRQH7Yu+1XSGOWLkcBXIXFM7TZ1gfSF5AdB04t89/1O/w1cDnyilFU=')
-handler = WebhookHandler('2c6f48674a3f81d049e67c92fe64ae79')
+line_bot_api = LineBotApi('您自己的')
+handler = WebhookHandler('您自己的')
 
 # 監聽所有來自 /callback 的 Post Request
 @app.route("/callback", methods=['POST'])
